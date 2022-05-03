@@ -32,7 +32,7 @@ public class Main {
         System.out.println(type5);
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Сколько тебе лет??");
+        System.out.println("Сколько тебе лет?");
         int age = input.nextInt();
         String result = (age >= 18) ? "You can take the credit" : "Lets try later";
 
